@@ -1,0 +1,33 @@
+:root{
+  --color-primary:#131921;
+  --color-accent:#febd69;
+  --color-bg:hsl(220, 18%, 97%);
+  --color-card:#ffffff
+  --color-text:#0f1111;
+--color-text-muted:#565959;
+--color-danger:#d9534f;
+--color-danger-hover:#c9302c;
+--radius:8px;
+--shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+*{
+box-sizing:border-box;
+}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacsystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  background-color:var(--color-text) ;
+  color:var(--color-text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+a{
+  text-decoration:none;
+  color:inherit;
+}
+button{
+  font-family:inherit;
+  cursor:pointer;}
+  input,textarea,select{
+    font-family: inherit;
+  }

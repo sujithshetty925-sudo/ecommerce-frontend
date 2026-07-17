@@ -1,0 +1,30 @@
+.profile-container{
+    width:450px;
+    margin:40px auto;
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.profile-container input,
+.profile-container textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.profile-container button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    background:green;
+    color:white;
+    fontsize:16px;
+}
+.profile-container button:last-child{ background:red;
+    background:red;
+}
